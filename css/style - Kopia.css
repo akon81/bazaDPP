@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+}
+body {
+	padding:0;
+	margin:0;
+	font-family: 'Anton', sans-serif;
+	font-size:16px;
+	color:#6f5b5a;
+}
+img {
+	border:none;
+}
+p, ul, li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.reszta {
+	background-color:#fbfbfb;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.reszta p {
+	font-family: 'Arimo', sans-serif;
+	font-size:14px;
+}
+
+.srodek {width:990px; margin:auto;}
+
+.calosc
+	{
+	margin:auto;
+	width:990px;		
+	}
+
+.login {
+	margin:auto;
+	width:990px;
+	margin-top:200px;
+}
+.logindalej {
+	margin:auto;
+	width:990px;
+	margin-top:20px;
+}
+.centab {
+	margin:auto;
+	width:500px;
+}
+.cent {
+	text-align:center;
+	padding-bottom:30px;
+}
+.tekstlog {
+	font-size:36px;
+}
+.tekstform {
+	font-size:20px;
+}
+.opisw {
+	font-size:38px;
+}
+.opisreszta {
+	font-size:24px;
+}
+.szukaj {
+	text-align:center;
+	width:515px;
+	margin:auto;
+}
+.szukajdalej {
+	text-align:center;
+	width:990px;
+	margin:auto;
+}
+.pasek {
+	border-bottom:dotted 1px #6f5b5a;
+	margin-bottom:20px;
+}
+
+#panel_klienta
+	{
+	padding:10px;
+	}
+	
+#panel_klienta span
+	{
+	display: block;
+	color:	#e65e0d;
+	}
+	
+#panel_klienta ul li
+	{
+	display: inline;
+	padding: 15px;	
+	}
+
+#panel_klienta a
+	{
+	color:#6f5b5a; 
+	text-decoration:none;	
+	}
+
+#panel_klienta .red
+	{
+	color: #e65e0d; 	
+	}
+	
+.zalog {border-radius: 8px 8px 8px 8px; background-color:#fff; border:#d4dfac 3px solid; padding:10px; color:#a0aa7a; font-family: 'Anton', sans-serif;
+	font-size:16px; font-size:34px; cursor:pointer; margin-top:20px;}
+.zalog:hover {border-radius: 8px 8px 8px 8px; background-color:#d4dfac; border:#bfcd8a 3px solid; padding:10px; color:#fff; font-family: 'Anton', sans-serif;
+	font-size:16px; font-size:34px; cursor:pointer; margin-top:20px;}
+		
+a.zalog:link {
+	font-size:34px;
+	padding:5px;
+	background-image:url(../images/zaloguj.gif);
+	width:132px;
+	height:54px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:top center;
+	display:inline-block;
+	color:#a0aa7a;
+	margin-top:20px;
+}
+a.zalog:hover {
+	font-size:34px;
+	padding:5px;
+	background-image:url(../images/zaloguj.gif);
+	width:132px;
+	height:54px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:bottom center;
+	display:inline-block;
+	color:#fff;
+	margin-top:20px;
+}
+a.zalog:active {
+	font-size:34px;
+	padding:5px;
+	background-image:url(../images/zaloguj.gif);
+	width:132px;
+	height:54px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:top center;
+	display:inline-block;
+	color:#a0aa7a;
+	margin-top:20px;
+}
+a.zalog:visited {
+	font-size:34px;
+	padding:5px;
+	background-image:url(../images/zaloguj.gif);
+	width:132px;
+	height:54px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:top center;
+	display:inline-block;
+	color:#a0aa7a;
+}
+.inputlog {
+	background-image:url(../images/input.gif);
+	width:344px;
+	height:54px;
+	border:none;
+	padding:5px;
+	background-repeat:no-repeat;
+	margin:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#6f5b5a;
+	font-size:18px;
+}
+.inputszukaj {
+	width:344px;
+	height:54px;
+	border:none;
+	padding:5px;
+	margin:0px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#e5f0bb;
+	font-size:18px;
+	color:#6f5b5a;
+	float:left;
+	line-height:170%;
+}
+a.szukajbut:link {
+	font-size:30px;
+	padding:5px;
+	background-image:url(../images/szukaj.gif);
+	width:97px;
+	height:54px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:top center;
+	display:inline-block;
+	color:#fff;
+	float:left;
+	line-height:170%;
+}
+a.szukajbut:hover {
+	font-size:30px;
+	padding:5px;
+	background-image:url(../images/szukaj.gif);
+	width:97px;
+	height:54px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:bottom center;
+	display:inline-block;
+	color:#a0aa7a;
+	float:left;
+	line-height:170%;
+}
+a.szukajbut:active {
+	font-size:30px;
+	padding:5px;
+	background-image:url(../images/szukaj.gif);
+	width:97px;
+	height:54px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:top center;
+	display:inline-block;
+	color:#fff;
+	float:left;
+	line-height:170%;
+}
+a.szukajbut:visited {
+	font-size:30px;
+	padding:5px;
+	background-image:url(../images/szukaj.gif);
+	width:97px;
+	height:54px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:top center;
+	display:inline-block;
+	color:#fff;
+	float:left;
+	line-height:170%;
+}
+a.pokazgraf:link {
+	font-size:18px;
+	padding:12px;
+	background-image:url(../images/pokaz_grafike.gif);
+	width:177px;
+	height:28px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:top center;
+	display:inline-block;
+	color:#a0aa7a;
+	float:left;
+	margin-top:5px;
+	margin-right:300px;
+}
+a.pokazgraf:hover {
+	font-size:18px;
+	padding:12px;
+	background-image:url(../images/pokaz_grafike.gif);
+	width:177px;
+	height:28px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:bottom center;
+	display:inline-block;
+	color:#6f5b5a;
+	float:left;
+	margin-right:300px;
+}
+a.pokazgraf:active {
+	font-size:18px;
+	padding:12px;
+	background-image:url(../images/pokaz_grafike.gif);
+	width:177px;
+	height:28px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:top center;
+	display:inline-block;
+	color:#a0aa7a;
+	float:left;
+	margin-right:300px;
+}
+a.pokazgraf:visited {
+	font-size:18px;
+	padding:12px;
+	background-image:url(../images/pokaz_grafike.gif);
+	width:177px;
+	height:28px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:top center;
+	display:inline-block;
+	color:#a0aa7a;
+	float:left;
+	margin-right:300px;
+}

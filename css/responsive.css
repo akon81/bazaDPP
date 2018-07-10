@@ -1,0 +1,184 @@
+.menubut {display:none;}
+#login-content img { width:100%; height:auto;}
+.logogl {float:left; width:178px; text-align:left;}
+.iso, .flpl {float:right;}
+.szukaja {text-align:right; padding-top:2px;}
+.logast {width:200px; float:right;}
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+
+/* Make it a marquee */
+.marquee {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 25s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { text-indent: 5em }
+    100% { text-indent: -105em }
+}
+
+/* Make it pretty */
+.scrolink {
+    padding-left: 1.5em;
+    position: relative;
+}
+
+
+
+/* Style the links */
+.scrolink a {
+    color: #1570A6;
+    transition: color .5s;
+    text-decoration: none;
+}
+
+.scrolink a:hover {
+    color: #F65314;
+}
+
+/* Style toggle button */
+.toggle {
+	display: block;
+    margin: 2em auto;
+}
+
+
+@media (max-width: 1024px) {
+.opismena {display:none;}
+.logogl {margin-left:10px;}
+.dwiekol #pasekinfo { width:100%;}
+.logoiso, .menugl {margin:auto; width:100%; clear:both;}
+.praweimg {width:100%; text-align:center; background-color:#fff; padding:10px 0px 10px 0px; float:none;}
+.dwiekol #zbiorczy { 
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+}
+.cookie {width:95%;}
+.dwiekol #menulewenowe h5 {font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#000000; font-weight:normal; padding:0px 20px 0px 20px; margin:0;}
+.dwiekol #menulewenowe { float:none; width:100%; padding:20px 0px 20px 0px; margin-bottom:20px;}
+.dwiekol #menuprawenowe { float:none; width:100%; padding:0px; margin-bottom:20px;}
+.opisnews { padding:20px;}
+.newslet {text-align:center; font-size:12px;}
+.md12 {padding:0px 70px 0px 80px; width:225px; min-height:230px;}
+.mdol {width:100%;}
+.pales {text-align:center;}
+.paletkal, .paletka{ width:48%; border:#d1d1cf solid 1px; background-color:#f5f5f5; margin-top:10px;}
+.paletka img, .paletkal img {width:100%; text-align:center;}
+a.tytdoltxt:link, a.tytdoltxt:hover {font-size:16px;}
+a.tytdolm:link, a.tytdolm:hover {font-size:18px;}
+.dwiekol #zawartoscall { margin:0px 7px 0px 260px;}
+.tekstnews {padding:5px 0px 5px 5px}
+.tabzapyt {width:100%;}
+ul#menu {padding:15px 0px 0px 10px;}
+}
+
+@media (max-width: 800px) {
+.menubut {display:inline-block; margin-top:13px; float:left;}
+#menu {display:none;}
+.szukaja {
+    text-align: right;
+    padding-top: 18px;
+    float: right;
+    width: 230px;
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+.md12 {padding:0px 40px 0px 80px; width:140px;}
+.paletka img, .paletkal img {width:100%; text-align:center;}
+.dwiekol #menulewenowe { margin-bottom:0px; padding:20px 0px 0px 0px;} 
+.paletkal, .paletka{ width:48%; border:#d1d1cf solid 1px; background-color:#f5f5f5; margin-top:10px;}
+
+.ikonaprod img {width:50px; height:auto;}
+
+}
+
+@media (max-width: 767px) {
+.paletkakontkrem{ width:97%; border:#d1d1cf solid 1px; background-color:#fefce5; margin:auto; margin:5px; height:180px;}
+.tres {padding:0px 20px 0px 20px;}
+.infokont {width:100%; margin-bottom:10px;}
+
+}
+
+
+@media (max-width: 650px) {
+
+}
+
+
+@media (max-width: 570px) {
+.md12 {padding:0px 30px 0px 60px;}
+.paletka img, .paletkal img {width:100%; text-align:center;}
+.paletkal, .paletka { width:48%; border:#d1d1cf solid 1px; background-color:#f5f5f5; margin-top:10px;}
+a.tytdoltxt:link, a.tytdoltxt:hover {font-size:15px;}
+a.tytdolm:link, a.tytdolm:hover {font-size:17px;}
+#menuleweall {display:none;}
+.dwiekol #zawartoscall { margin:20px 7px 0px 7px;}
+.last {min-height:40px;}
+}
+
+@media (max-width: 470px) {
+.paletkal, .paletka { width:100%; background-color:#f5f5f5; margin-top:10px; border:none;}
+.paletkal img, .paletka img  {width:100%; height:auto;}
+.md12 {padding:0px 80px 0px 120px;}
+.logast {text-align:center; float:none; margin:auto;}
+.logogl { margin:auto; width:100%; text-align:center;}
+.iso {padding:0px 10px 0px 0px;}
+.flpl {padding:20px 0px 20px 10px;}
+.dwiekol #naglowek { height:157px;} 
+}
+
+@media (max-width: 414px) {
+.md12 {padding:0px 60px 0px 80px;}
+.paletkal, .paletka { width:100%; background-color:#f5f5f5; margin-top:10px;}
+.paletkal img, .paletka img  {width:100%; height:auto;}
+.pdf {text-align:left; width:15%;}
+
+}
+
+@media (max-width: 380px) {
+.dwiekol #menuprawenowe { margin-bottom:20px;}
+.inpszukaja {margin-top:0px;}
+.szukaja {
+    text-align: center;
+    padding-top: 18px;
+    float: right;
+    width: 220px;
+}
+.menu {width:120px; margin:auto;}
+.wyszuk {margin:auto; width:220px;}
+}
+
+@media (max-width: 240px) {
+.md12 {padding:0px 0px 0px 45px;}
+.tabzapyt {width:95%;}
+.tresc img {width:20px; height:auto;}
+.wypunkt {font-size:10px;}
+.tresc .wypunkt {font-size:14px;}
+.trescallczprod {font-size:14px;}
+.pdfl {font-size:10px; line-height:100%;}
+.trescall img { width:100%; height:auto;}
+#galeria { width:87%; height:auto;}
+
+}
+
+

@@ -1,0 +1,6 @@
+*~
+baza_sql_backup/
+.settings/
+.buildpath
+.project
+class.Config.php
