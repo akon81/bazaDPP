@@ -17,6 +17,7 @@ require_once ("class/class.Photo.php");
 require_once ("class/class.PhotoModel.php");
 require_once ("class/class.htmlView.php");
 require_once ("class/class.Statement.php");
+require_once ("plugins/dompdf/autoload.inc.php");
 // funkcje   	
 require_once ('funkcje_uwierzyt.php');
 date_default_timezone_set('Europe/Warsaw');
